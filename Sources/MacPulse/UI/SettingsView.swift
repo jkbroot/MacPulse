@@ -101,7 +101,7 @@ struct SettingsView: View {
             }
 
             HStack {
-                Text("MacPulse 1.1").font(.caption).foregroundStyle(.tertiary)
+                Text("MacPulse 1.1.0").font(.caption).foregroundStyle(.tertiary)
                 Spacer()
                 Button { NSApp.terminate(nil) } label: { Label(T("إنهاء", "Quit"), systemImage: "xmark.circle") }
                     .glassButton().controlSize(.small)
